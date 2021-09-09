@@ -1,0 +1,43 @@
+name: food_khata
+description: A new Flutter project.
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore: ^2.5.1
+  dartz: ^0.10.0-nullsafety.2
+  toggle_switch: ^1.2.0
+  firebase_core: ^1.6.0
+  firebase_auth: ^3.1.0
+  get_it: ^7.2.0
+  injectable: ^1.5.0
+  freezed_annotation: ^0.14.3
+  rxdart: ^0.27.2
+  uuid: ^3.0.4
+  bloc: ^7.1.0
+  flutter_bloc: ^7.2.0
+dev_dependencies:
+  lint: ^1.6.0
+  build_runner: ^2.0.6
+  freezed: ^0.14.5
+  injectable_generator: ^1.5.1
+  json_serializable: ^5.0.0
+
+dependency_overrides:
+  analyzer: ^2.1.0
+  meta: ^1.7.0
+
+
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+   - assets/food_khata_logo.png
